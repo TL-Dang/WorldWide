@@ -1,17 +1,28 @@
 # React + Vite dev environment
+
 npm create vite@latest - select React framework and Vanilla JS
 
 # ESlint for React and Vite
+
 npm i eslint vite-plugin-eslint eslint-config-react-app --save-dev
 
 # React Router
+
 npm i react-router-dom
 
-# Launch dev preview
+# Launch dev preview build
+
 npm run dev
 
 # Styling
+
 Uses css for global styling and css modules for component specific styling.
+
+# Access to server
+
+- run "npm i json-server" in the cli
+- to access "server" add "json-server --watch data/cities.json --port 8000 --delay 500" to package.json within scripts object. 
+- in the terminal run "npx json-server --watch data/cities.json --port 8000 --delay 500" to launch mock server.
 
 # React + Vite
 

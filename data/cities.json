@@ -1,40 +1,64 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
+      "cityName": "Vancouver",
+      "country": "Canada",
+      "emoji": "🇨🇦",
       "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "notes": "Cool city",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
+        "lat": 49.246292,
+        "lng": -123.116226
       },
       "id": 73930385
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
+      "cityName": "San Francisco",
+      "country": "USA",
+      "emoji": "🇺🇸",
       "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
+      "notes": "Has the Golden Gate Bridge",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": 37.733795,
+        "lng": -122.446747
       },
       "id": 17806751
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
+      "cityName": "La Paz",
+      "country": "Mexico",
+      "emoji": "🇲🇽",
       "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "notes": "Good beaches 😃",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": 24.1444,
+        "lng": -110.3005
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Edmonton",
+      "country": "Canada",
+      "emoji": "🇨🇦",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Really cold in the winter",
+      "position": {
+        "lat": 53.631611,
+        "lng": -113.323975
+      },
+      "id": 31979844
+    },
+    {
+      "cityName": "Denver",
+      "country": "USA",
+      "emoji": "🇺🇸",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Known as the Mile High City",
+      "position": {
+        "lat": 39.742043,
+        "lng": -104.991531
+      },
+      "id": 67511780
     }
   ]
 }
