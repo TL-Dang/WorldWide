@@ -24,6 +24,14 @@ Uses css for global styling and css modules for component specific styling.
 - to access "server" add "json-server --watch data/cities.json --port 8000 --delay 500" to package.json within scripts object. 
 - in the terminal run "npx json-server --watch data/cities.json --port 8000 --delay 500" to launch mock server.
 
+# React leaflet and leaflet library
+
+- run "npm i react-leaflet leaflet" to install open source map library
+
+# React-Datepicker
+- run 'npm i react-datepicker' to install open source date picker. Place this css link into the file where datepicker element is to be used. import 
+
+"react-datepicker/dist/react-datepicker.css";
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

@@ -37,26 +37,26 @@
       "id": 98443197
     },
     {
-      "cityName": "Edmonton",
-      "country": "Canada",
-      "emoji": "🇨🇦",
+      "cityName": "Piura",
+      "country": "Peru",
+      "emoji": "🇵🇪",
       "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Really cold in the winter",
+      "notes": "Hot year round 🥵",
       "position": {
-        "lat": 53.631611,
-        "lng": -113.323975
+        "lat": -5.178288,
+        "lng": -80.654888
       },
       "id": 31979844
     },
     {
-      "cityName": "Denver",
-      "country": "USA",
-      "emoji": "🇺🇸",
+      "cityName": "La Paz",
+      "country": "Bolivia",
+      "emoji": "🇧🇴",
       "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Known as the Mile High City",
+      "notes": "Highest capital city in the world",
       "position": {
-        "lat": 39.742043,
-        "lng": -104.991531
+        "lat": -16.5,
+        "lng": -68.15
       },
       "id": 67511780
     }
