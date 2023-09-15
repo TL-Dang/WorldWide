@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { Link } from 'react-router-dom';
+import { useCities } from '../../contexts/CitiesContext.component.jsx';
 import styles from './CityItem.module.css';
-import { useCities } from '../../contexts/CitiesContext.component';
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat('en', {
@@ -10,12 +11,12 @@ const formatDate = (date) =>
   }).format(new Date(date));
 
 function CityItem({ city }) {
-  const { currentCity, deletedCity } = useCities();
+  const { currentCity, deleteCity } = useCities();
   const { cityName, emoji, date, id, position } = city;
 
   function handleClick(e) {
     e.preventDefault();
-    deletedCity(id);
+    deleteCity(id);
   }
 
   return (

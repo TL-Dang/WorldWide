@@ -28,7 +28,7 @@
       "cityName": "La Paz",
       "country": "Mexico",
       "emoji": "🇲🇽",
-      "date": "2027-02-12T09:24:11.863Z",
+      "date": "2027-05-12T09:24:11.863Z",
       "notes": "Good beaches 😃",
       "position": {
         "lat": 24.1444,
@@ -52,13 +52,25 @@
       "cityName": "La Paz",
       "country": "Bolivia",
       "emoji": "🇧🇴",
-      "date": "2027-02-12T09:24:11.863Z",
+      "date": "2027-01-12T09:24:11.863Z",
       "notes": "Highest capital city in the world",
       "position": {
         "lat": -16.5,
         "lng": -68.15
       },
       "id": 67511780
+    },
+    {
+      "cityName": "Puerto Penasco",
+      "country": "Mexico",
+      "emoji": "🇲🇽",
+      "date": "2023-09-15T21:06:45.144Z",
+      "notes": "",
+      "positions": {
+        "lat": "31.353636941500987",
+        "lng": "-113.26904296875"
+      },
+      "id": 98443198
     }
   ]
 }

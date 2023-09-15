@@ -1,5 +1,14 @@
+/* eslint-disable react/prop-types */
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Popup,
+  useMap,
+  useMapEvents,
+} from 'react-leaflet';
+import { useEffect, useState } from 'react';
 
 import { useCities } from '../../contexts/CitiesContext.component';
 import { useGeolocation } from '../../hooks/useGeolocation.component';
@@ -9,7 +18,7 @@ import styles from './Map.module.css';
 
 function Map() {
   const { cities } = useCities();
-  const [mapPosition, setMapPosition] = useState([40, 0]);
+  const [mapPosition, setMapPosition] = useState([33, -118]);
   const {
     isLoading: isLoadingPosition,
     position: geolocationPosition,
@@ -42,7 +51,7 @@ function Map() {
 
       <MapContainer
         center={mapPosition}
-        zoom={6}
+        zoom={7}
         scrollWheelZoom={true}
         className={styles.map}>
         <TileLayer
