@@ -25,6 +25,7 @@ const FAKE_USER = {
   avatar: 'https://www.boorp.com/avatars_100x100_for_myspace/25.png',
 };
 
+// eslint-disable-next-line react/prop-types
 function AuthProvider({ children }) {
   const [{ user, isAuthenticated }, dispatch] = useReducer(
     reducer,
