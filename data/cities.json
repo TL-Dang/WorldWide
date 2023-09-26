@@ -71,6 +71,18 @@
         "lng": "-113.26904296875"
       },
       "id": 98443198
+    },
+    {
+      "cityName": "Linden-Farmington",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2023-09-26T22:35:10.794Z",
+      "notes": "",
+      "positions": {
+        "lat": "38.004819966413194",
+        "lng": "-120.98144531250001"
+      },
+      "id": 98443199
     }
   ]
 }
